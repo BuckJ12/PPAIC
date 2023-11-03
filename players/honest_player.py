@@ -1,5 +1,8 @@
 from pypokerengine.players import BasePokerPlayer
-from pypokerengine.utils.card_utils import gen_cards, estimate_hole_card_win_rate
+from pypokerengine.utils.card_utils import (
+    gen_cards,
+    estimate_hole_card_win_rate
+)
 
 nb_simulation = 1000
 # Do not forget to make parent class as "BasePokerPlayer"
