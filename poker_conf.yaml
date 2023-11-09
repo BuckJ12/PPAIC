@@ -1,12 +1,12 @@
-ante: 0
+ante: 10
 blind_structure: null
-initial_stack: 100
+initial_stack: 1000
 max_round: 10
 small_blind: 10
 ai_players:
-- name: fish_player_1
-  path: ./players/fish_player.py
-- name: fish_player_2
-  path: ./players/fish_player.py
-  name: honest_player.py
-  path: ./players/honest_player.py
+  - name: fish_player
+    path: ./players/fish_player.py
+  - name: honest_player
+    path: ./players/honest_player.py
+  - name: Balls
+    path: ./players/Balls.py
